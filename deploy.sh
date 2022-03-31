@@ -17,17 +17,17 @@ git commit -m "$msg"
 
 git push origin main
 
-# Build the project.
-hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
+# # Build the project.
+# hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 
-# Go To Public folder
-cd public  
+# # Go To Public folder
+# cd public  
 
-# Add changes to git.
-git add .
+# # Add changes to git.
+# git add .
 
 
-git commit -m "$msg"
+# git commit -m "$msg"
 
-# Push source and build repos.
-git push origin master
+# # Push source and build repos.
+# git push origin master
