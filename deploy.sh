@@ -20,7 +20,7 @@ git push origin main
 cd ..
 
 # rm -rf hugo-blog-master
-mkdire -p hugo-blog-master
+mkdir -p hugo-blog-master
 
 # git clone git@github.com:zhangfinn/zhangfinn.github.io.git hugo-blog-master
 
