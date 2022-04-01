@@ -26,7 +26,7 @@ git clone git@github.com:zhangfinn/zhangfinn.github.io.git hugo-blog-master
 
 cd hugo-blog-master
 
-cp "../hugo-blog/public" ./
+cp "../hugo-blog/public/" ./
 
 # Add changes to git.
 git add .
