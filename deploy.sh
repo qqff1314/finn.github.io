@@ -19,10 +19,7 @@ git push origin main
 
 cd ..
 
-# rm -rf hugo-blog-master
 mkdir -p hugo-blog-master
-
-# git clone git@github.com:zhangfinn/zhangfinn.github.io.git hugo-blog-master
 
 cd hugo-blog-master
 
@@ -34,9 +31,7 @@ git remote add origin	git@github.com:zhangfinn/zhangfinn.github.io.git
 # Add changes to git.
 git add .
 
-
 git commit -m "$msg"
-
 
 # Push source and build repos.
 git push origin master --force
