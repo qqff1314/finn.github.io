@@ -1,5 +1,5 @@
 #!/bin/sh
-MASTER_DIR = hugo-blog-master
+MASTER_DIR = ./hugo-blog-master
 # If a command fails then the deploy stops
 set -e
 
