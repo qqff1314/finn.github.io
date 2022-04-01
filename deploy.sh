@@ -22,7 +22,7 @@ hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 cd ..
 
-git clone git@github.com:zhangfinn/zhangfinn.github.io.git hugo-blog
+git clone git@github.com:zhangfinn/zhangfinn.github.io.git hugo-blog-master
 
 # cp "../../../dist/index.html" ./
 
