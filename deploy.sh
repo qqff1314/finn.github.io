@@ -2,6 +2,9 @@
 # If a command fails then the deploy stops
 set -e
 
+# Build the project.
+hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
+
 git add .
 
 # Commit changes.
@@ -13,9 +16,6 @@ fi
 git commit -m "$msg"
 
 git push origin main
-
-# Build the project.
-hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 cd ..
 
