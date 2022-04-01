@@ -22,23 +22,23 @@ cd ..
 
 rm -rf hugo-blog-master
 
-git clone git@github.com:zhangfinn/zhangfinn.github.io.git hugo-blog-master
+# git clone git@github.com:zhangfinn/zhangfinn.github.io.git hugo-blog-master
 
-cd hugo-blog-master
+# cd hugo-blog-master
 
-cp "../hugo-blog/public/" ./
+# cp "../hugo-blog/public/" ./
 
-# Add changes to git.
-git add .
-
-
-git commit -m "$msg"
+# # Add changes to git.
+# git add .
 
 
-# Push source and build repos.
-git push origin master
+# git commit -m "$msg"
 
-cd ../
 
-rm -rf $MASTER_DIR
+# # Push source and build repos.
+# git push origin master
+
+# cd ../
+
+# rm -rf $MASTER_DIR
 
