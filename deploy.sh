@@ -24,13 +24,12 @@ cd ..
 
 git clone git@github.com:zhangfinn/zhangfinn.github.io.git hugo-blog-master
 
-# cp "../../../dist/index.html" ./
+cd hugo-blog-master
 
-# # Go To Public folder
-# cd public  
+cp "../hugo-blog/public" ./
 
-# # Add changes to git.
-# git add .
+# Add changes to git.
+git add .
 
 
 git commit -m "$msg"
@@ -38,3 +37,4 @@ git commit -m "$msg"
 
 # Push source and build repos.
 git push origin master
+
