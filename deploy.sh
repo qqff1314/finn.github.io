@@ -28,6 +28,7 @@ cp -rf "../hugo-blog/public/" ./
 git init
 
 git remote add origin	git@github.com:zhangfinn/zhangfinn.github.io.git
+
 # Add changes to git.
 git add .
 
