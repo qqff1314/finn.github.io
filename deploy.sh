@@ -20,14 +20,21 @@ git push origin main
 # Build the project.
 hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 
-# Go To Public folder
-cd public  
+cd ..
 
-# Add changes to git.
-git add .
+git clone git@github.com:zhangfinn/zhangfinn.github.io.git hugo-blog
+
+# cp "../../../dist/index.html" ./
+
+# # Go To Public folder
+# cd public  
+
+# # Add changes to git.
+# git add .
 
 
 git commit -m "$msg"
+
 
 # Push source and build repos.
 git push origin master
